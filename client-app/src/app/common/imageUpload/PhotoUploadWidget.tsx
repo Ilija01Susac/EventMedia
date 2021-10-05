@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Button, Grid, Header, Image } from 'semantic-ui-react';
+import { Button, Grid, Header } from 'semantic-ui-react';
 import PhotoWidgeteDropzone from './PhotoWidgeteDropzone';
 import { Cropper } from 'react-cropper';
 import PhotoWidgeteCroper from './PhotoWidgeteCroper';
