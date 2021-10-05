@@ -13,11 +13,11 @@ export default observer(function HomePage() {
             <Container text>
                 <Header as='h1' inverted>
                     <Image size='massive' src='/assets/logo.png' alt='logo' style={{ marginBottom: 12 }} />
-                    Reactivities
+                    Event Media
                 </Header>
                 {userStore.isLoggedIn ? (
                     <>
-                        <Header as="h2" inverted content="Welcome to Reactivities" />
+                        <Header as="h2" inverted content="Welcome to Event Media" />
                         <Button as={Link} to='/activities' size='huge' inverted>
                             Go to Activities!
                         </Button>
